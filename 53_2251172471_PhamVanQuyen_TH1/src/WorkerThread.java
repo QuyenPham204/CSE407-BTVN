@@ -28,6 +28,6 @@ public class WorkerThread extends Thread {
         }
 
         // In kết quả trung gian
-        System.out.println("Luồng " + id + ": Max = " + max + " - Thời gian: " + System.currentTimeMillis());
+        System.out.println("T" + id + ": " + max + " - Thời gian: " + System.currentTimeMillis());
     }
 }
